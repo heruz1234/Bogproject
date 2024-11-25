@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .hero{
+    background-color: rgba(0, 0, 255, 0.295);
+    background-image: url(./assets/welcome-hero/banner.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+} */
