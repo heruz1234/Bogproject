@@ -21,7 +21,8 @@ export const getFirebaseBlog = async (input_author,input_content,input_title,inp
             img: item.data().img,
             title: item.data().title,
             content: item.data().content,
-            author: item.data().author
+            author: item.data().author,
+
         }
         allBlog.push(blogData)
       }

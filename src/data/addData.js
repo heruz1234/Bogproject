@@ -7,6 +7,7 @@ export const addNewBlog = async (input_author,input_content,input_title,input_im
         content: input_content,
         title: input_title,
         img: input_img,
+        
       }
     )
  

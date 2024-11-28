@@ -14,6 +14,7 @@ export default function Home() {
         const delFirebaseBlog = async (item)=>{
             try{
                 const res= await deleteDoc(doc(db, "Blog_DB", item.id));
+                console.log(res);
                 
                 
             } catch (err) {

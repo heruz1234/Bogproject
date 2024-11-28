@@ -14,7 +14,7 @@ export default function SingleBlogPage() {
       const docSnap = await getDoc(Sinlgedata);
 
       if (docSnap.exists()) {
-        console.log("Document data:", docSnap.data());
+        console.log("Document data:", docSnap.data(),);
         setData(docSnap.data())
       } else {
         // docSnap.data() will be undefined in this case
