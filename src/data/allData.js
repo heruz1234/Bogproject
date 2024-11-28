@@ -1,5 +1,6 @@
 import { collection ,addDoc } from "firebase/firestore";
-import db from './firebaseData'
+import db from "./FirebaseData";
+// import db from './firebaseData'
 
 // export const addBlog = async (input_author,input_content,input_title,input_img) => {
 //     const newItem = await addDoc(collection(db, "Blog_DB"), {
