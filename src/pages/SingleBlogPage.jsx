@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom'
 import Home from './Home'
 import HeaderNavBar from '../components/Header'
 import { doc, getDoc } from "firebase/firestore";
-import db from '../data/FirebaseData';
+import db from '../data/firebaseData';
 export default function SingleBlogPage() {
    const blogId = useParams()
    const [data, setData] =useState([])

@@ -1,10 +1,9 @@
  import React, { useEffect, useState } from 'react'
  import { useParams } from 'react-router-dom';
 import HeaderNavBar from '../components/Header'
-// import db from '../data/FirebaseData'
+import db from '../data/firebaseData'
 import { collection, getDocs, deleteDoc,doc } from "firebase/firestore";
 import  { useNavigate } from 'react-router-dom'
-import db from '../data/FirebaseData';
 
 
 export default function Home() {
